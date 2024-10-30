@@ -1,27 +1,25 @@
-# ExamenFrontend
+Proyecto en Angular 16
+Este proyecto está desarrollado en Angular 16 con un diseño optimizado solo para dispositivos móviles.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+Funcionalidades
+Modal de Dirección: Al seleccionar el campo de dirección, se abre un modal donde puedes ingresar un código postal válido, el cual llenará automáticamente los campos de Estado, Municipio y Colonia correspondientes.
+Instalación y Configuración
+Clonar el Repositorio
 
-## Development server
+bash
+Copy code
+git clone <URL del repositorio>
+cd <nombre del directorio>
+Instalar Dependencias
+Ejecuta el siguiente comando para instalar las dependencias del proyecto:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+bash
+Copy code
+npm install
+Ejecutar la Aplicación
+Para iniciar el proyecto en modo de desarrollo, usa:
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+bash
+Copy code
+ng serve
+Accede a la aplicación desde tu navegador en http://localhost:4200.
