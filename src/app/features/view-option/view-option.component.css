@@ -1,0 +1,175 @@
+
+
+.container {
+    margin: 1rem auto;              
+    justify-content: center;         
+    align-items: center;              
+    height: 20%;                     
+    width: 60%;                       
+    display: flex;                   
+}
+
+.logo-img {
+    width: 100%;                      
+    height: auto;                     
+    object-fit: contain;              
+}
+
+.person-img {
+    width: 65%;                      
+    height: 15.625rem;                 
+    object-fit: contain;     
+    border: 2px solid  #193A6A; 
+     
+}
+
+.orange-line {
+    left: 0;                  
+    height: 2px;              
+    background: #FF6B00;     
+    width: 100vw;             
+}
+
+.blue-line{
+    height: 17px;
+    background: #193A6A;
+    width: 100%;
+}
+
+.generic-label-size{
+   font-size: 0.9rem;
+   color: #153996;
+   font-family: 'Jost'
+}
+
+.person-container{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;             
+    flex-direction: column;    
+    align-items: center;        
+    justify-content: center;    
+}
+
+.name-label{
+    margin-top: .8rem;
+    margin-bottom: .8rem;
+    font-size: 2rem;
+    color: #193A6A;
+    font-family: 'Jost', sans-serif;
+}
+
+.orange-label{
+    color: #F14722;
+    font-size: 1.5rem;
+    font-family: 'Jost', sans-serif;
+    margin-top: .8rem;
+}
+
+.workstation-blue-label{
+    margin-top: .6rem;
+    margin-bottom: 0.8rem;
+    color:  #153996;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.5rem;
+}
+
+.listing-price-btn{
+  
+    border: 2px solid  #F14722; 
+    background: white;
+    font-size: 1.4rem;
+    font-family: 'Jost', sans-serif;
+    border-radius: 10px;
+}
+
+.title-orange-line{
+    background: #FFA629;
+    color: #ffff;
+    font-family: 'Jost', sans-serif;
+    height: 1.8rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.person-info-container{
+    display: inline-block;
+    width: 100%;
+    padding: 10px; 
+    background: #FFF1DD;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.title-blue-container {
+    display: inline-block;
+    padding: 10px; 
+    background: #193A6A;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.title-section {
+    display: inline-block;  
+    width: 80%;              
+    font-size: 1.3em;
+    font-family: 'Jost', sans-serif;
+    color: #ffffff;
+}
+
+.info-number-container {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;             
+    flex-direction: row;      
+    align-items: center;     
+    justify-content: center;   
+}
+
+.whatsapp-logo {
+    width: 3rem;
+    height: auto;                     
+    object-fit: contain;  
+    margin-right: 2rem; 
+}
+
+.phone-number{
+
+    border: 2px solid  #F14722; 
+    background: white;
+    font-size: 1.4rem;
+    padding: 4px;
+    border-radius: 10px;
+    
+}
+
+.line {
+    width: 85%;                
+    height: 1px;              
+    background-color: #000;   
+    margin: 20px auto;        
+    display: block;            
+}
+
+.options-container{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;             
+    flex-direction: column;    
+    align-items: center;        
+    justify-content: center;    
+}
+
+.option-text{
+    color: #193A6A;
+    font-size: 1.4rem;
+    font-family: 'Jost', sans-serif;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+
+

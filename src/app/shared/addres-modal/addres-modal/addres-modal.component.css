@@ -1,0 +1,50 @@
+body{
+  
+    background: #fff;
+}
+
+.title{
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+:host {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    max-width: 80vw; 
+    max-height: 60vh;
+    overflow: auto; 
+    margin: auto; 
+  }
+  
+ body {
+  
+    flex-direction: column; 
+    width: 100%; 
+    padding: 20px;
+    box-sizing: border-box; 
+    text-align: center;
+  }
+
+  small{
+    color: red;
+  }
+
+  .option-label{
+    display: block;
+    margin-bottom: 2px;
+    text-align: left; 
+  }
+
+  .cp, .select{
+    width: 100%;
+    margin: auto;
+    height: 1.5rem; 
+    border-radius: 8px;
+ }
+  

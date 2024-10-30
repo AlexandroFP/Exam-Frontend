@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <label class="title"> Domicilio</label>
+
+  <form [formGroup]="addressForm">
+    <label class="option-label" for="cp">Código Postal:</label>
+    <input class="cp" for="cp" placeholder="Codigo Postal:" type="text" id="cp" formControlName="cp">
+    <div *ngIf="addressForm.get('cp')?.invalid && addressForm.get('cp')?.touched">
+      <small *ngIf="addressForm.get('cp')?.errors?.['required']">El código postal es requerido.</small>
+      <small *ngIf="addressForm.get('cp')?.errors?.['pattern']">El código postal debe contener solo números.</small>
+      <small *ngIf="addressForm.get('cp')?.errors?.['minlength']">El código postal debe tener al menos 5 dígitos.</small>
+    </div>
+
+    <label class="option-label" for="estado">Estado:</label>
+    <select class="select" id="estado" [disabled]="isDisabled">
+      <option *ngFor="let est of estados" [value]="est">{{ est }}</option>
+    </select>
+  
+    <label class="option-label" for="municipio">Municipio:</label>
+    <select class="select" id="municipio" [disabled]="isDisabled">
+      <option *ngFor="let mun of municipios" [value]="mun">{{ mun }}</option>
+    </select>
+  
+    <label class="option-label" for="colonia">Colonia:</label>
+  <select class="select" id="colonia" formControlName="colonia">
+    <option *ngFor="let col of colonias" [value]="col">{{ col }}</option>
+  </select>
+  
+  </form>
+</body>
+</html>
